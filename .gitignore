@@ -1,0 +1,8 @@
+Dataset/
+__pycache__/
+.ipynb_checkpoints/
+saved_models/
+logs/
+*.h5
+*.weights.h5
+*.log
