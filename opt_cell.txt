@@ -1,4 +1,0 @@
-import tensorflow
-opt = tensorflow.keras.optimizers.SGD(learning_rate=0.001)
-
-loaded_model.compile(loss='categorical_crossentropy', optimizer=opt, metrics=["accuracy"])

@@ -1,8 +1,17 @@
-Dataset/
+.venv/
 __pycache__/
 .ipynb_checkpoints/
+.vscode/
+
+# Ignore large files and models
+*.h5
+*.keras
+*.y4m
+*.mp4
+ffmpeg.exe
 saved_models/
 logs/
-*.h5
-*.weights.h5
-*.log
+
+# Ignore datasets if they are large
+video_dataset/
+test_frames/
